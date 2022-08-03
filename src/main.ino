@@ -59,7 +59,7 @@ loop()
 		 * T: temperature
 		 * speed of sound: 331.3 + (0.606 × T) m/sec
 		 *
-		 * when T = 25, * 346.45 m/sec. or 0.034645 cm/microseconds.
+		 * when T = 25, 346.45 m/sec. or 0.034645 cm/microseconds.
 		 */
 		distance_cm = time_microsecond * 0.034645 / 2;
 	} else {
